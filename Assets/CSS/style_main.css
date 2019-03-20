@@ -1,12 +1,28 @@
-* {
+body {
     background-color: #1e74ff;
 }
 
 /* Font Awesome Icons */
 .fab {
     margin: 10px;
+    font-size: 3em
 }
 
 .socialMenu {
 
 }
+
+.navbar {
+    position: absolute;
+    z-index: 2;
+}
+
+.carouselStyle {
+    height: 500px;
+}
+
+@media screen and (max-width: 480px) {
+    .fab {
+        font-size: 2em;
+    }
+  }
